@@ -1,4 +1,12 @@
 {
   "name": "skiatester",
-  "displayName": "skiatester"
+  "displayName": "skiatester",
+  "plugins": [
+    [
+      "expo-asset",
+      {
+        "assets": ["./assets/bunny.mp4"]
+      }
+    ]
+  ]
 }
